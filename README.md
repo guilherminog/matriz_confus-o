@@ -37,4 +37,5 @@ F1-Score = 2 \times \frac{{Precision} \times \{Recall}}{{Precision} +{Recall}}
 F1-Score = 2 \times \frac{0.833 \times 0.909}{0.833 + 0.909} \approx 0.869
 
 O F1-Score é a média harmônica entre a precisão e o recall. Ele fornece uma única métrica que combina essas duas medidas. Neste caso, o F1-Score é aproximadamente 0.869*
-*No exemplo cita neste README.
+
+#### *No exemplo cita neste README.
