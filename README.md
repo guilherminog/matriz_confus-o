@@ -21,19 +21,20 @@ Considere a seguinte matriz de confusão para um modelo de classificação biná
 Com base na matriz de confusão, podemos calcular diversas métricas de avaliação:
 
 ### Precisão (Precision)
-\[ \text{Precision} = \frac{TP}{TP + FP} \]
-\[ \text{Precision} = \frac{100}{100 + 20} \approx 0.833 \]
+Precision = frac{TP}{TP + FP}
+Precision = frac{100}{100 + 20} \approx 0.833
 
 A precisão mede a proporção de exemplos positivos previstos corretamente pelo modelo em relação ao número total de exemplos previstos como positivos. Neste caso, aproximadamente 83.3% das previsões positivas do modelo são realmente positivas.
 
 ### Recall (ou Sensibilidade - Sensitivity)
-\[ \text{Recall} = \frac{TP}{TP + FN} \]
-\[ \text{Recall} = \frac{100}{100 + 10} \approx 0.909 \]
+Recall = frac{TP}{TP + FN}
+Recall = frac{100}{100 + 10} \approx 0.909
 
 O recall mede a proporção de exemplos positivos previstos corretamente pelo modelo em relação ao número total de exemplos positivos reais no conjunto de dados. Neste caso, aproximadamente 90.9% dos exemplos positivos foram corretamente identificados pelo modelo.
 
 ### F1-Score
-\[ \text{F1-Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \]
-\[ \text{F1-Score} = 2 \times \frac{0.833 \times 0.909}{0.833 + 0.909} \approx 0.869 \]
+F1-Score = 2 \times \frac{{Precision} \times \{Recall}}{{Precision} +{Recall}}
+F1-Score = 2 \times \frac{0.833 \times 0.909}{0.833 + 0.909} \approx 0.869
 
-O F1-Score é a média harmônica entre a precisão e o recall. Ele fornece uma única métrica que combina essas duas medidas. Neste caso, o F1-Score é aproximadamente 0.869.
+O F1-Score é a média harmônica entre a precisão e o recall. Ele fornece uma única métrica que combina essas duas medidas. Neste caso, o F1-Score é aproximadamente 0.869*
+*No exemplo cita neste README.
